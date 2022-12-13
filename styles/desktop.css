@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* Desktop version: 1440 px */
+
+main > div#frame {
+    width: 1440px;
+}
+
+div#frame > section#qr-card {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
