@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
   <meta name="description" content="QR code component">
   <meta name="keywords" content="QR code">
   <meta name="author" content="Matheus Henrique Grande">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | QR code component</title>
+
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/desktop.css" media="only screen and (min-width: 992px)">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 12px; text-align: center; }
-    .attribution a { font-size: 12px; color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
+
 <body>
+
   <main>
-    <div id="frame">
-      <section id="qr-card">
-        <div id="image"></div>
-        <div id="info">
-          <h1>Improve your front-end skills by building projects</h1>
-          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-        </div>
-      </section>
-    </div>
+    <section class="qr-card">
+      <picture class="image">
+        <img src="images/image-qr-code.png" alt="">
+      </picture>
+      <div class="info">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </section>
   </main>
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/MatheusHG94" target="_blank">Matheus Henrique Grande</a>.
-    </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/MatheusHG94" target="_blank">Matheus Henrique Grande</a>.
   </footer>
+
 </body>
 </html>
