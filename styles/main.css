@@ -19,6 +19,9 @@
 }
 
 html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 picture, img {
@@ -33,9 +36,9 @@ body {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    display: grid;
+    place-content: center;
 }
 
 .qr-card {
@@ -66,6 +69,10 @@ p {
 }
 
 .attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
     font-size: 12px;
     text-align: center;
 }
