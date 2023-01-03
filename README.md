@@ -18,8 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Mobile version](./solution-scrshot/QRCodeComponent-mobile.jpg)
-![Desktop version](./solution-scrshot/QRCodeComponent-desktop.jpg)
+![All screens version](./solution-scrshot/QRCodeComponent-solution.jpg)
 
 ### Links
 
@@ -33,6 +32,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 - Mobile-first workflow
 
 ### What I learned

@@ -25,7 +25,8 @@ html, body {
 body {
     background-color: var(--color1);
     font-family: var(--ff);
-    font-size: 15px;
+    font-weight: var(--fw-normal);
+    font-size: 0.875rem;
 }
 
 main {
@@ -53,20 +54,20 @@ main {
 }
 
 .content {
-    margin: 10px 30px 30px 30px;
+    margin: 10px 30px 40px 30px;
 }
 
 h1 {
     color: var(--color3);
-    font-size: 1.4em;
+    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: var(--fw-bold);
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 p {
     color: var(--color2);
-    font-weight: var(--fw-normal);
     text-align: center;
 }
 
@@ -76,11 +77,11 @@ p {
     width: 100%;
     padding: 5px;
     font-size: 12px;
+    font-size: 0.75rem;
     text-align: center;
 }
 
 .footer a {
-    font-size: 12px;
     color: hsl(228, 45%, 44%);
 }
 
