@@ -1,21 +1,20 @@
 @charset "utf-8";
 
-/* Mobile version: 375 px */
-
 :root {
     --color1: hsl(212, 45%, 89%);
     --color2: hsl(220, 15%, 55%);
     --color3: hsl(218, 44%, 22%);
 
-    --font: 'Outfit', sans-serif; /* weight: 400, 700 */
+    --ff: 'Outfit', sans-serif;
+
+    --fw-normal: 400;
+    --fw-bold: 700;
 }
 
 *, *::before, *::after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--font);
-    font-size: 15px;
 }
 
 html, body {
@@ -23,17 +22,14 @@ html, body {
     height: 100vh;
 }
 
-picture, img {
-    display: block;
-    width: 100%;
-}
-
 body {
     background-color: var(--color1);
+    font-family: var(--ff);
+    font-size: 15px;
 }
 
 main {
-    height: 100%;
+    min-height: 100%;
     display: grid;
     place-content: center;
 }
@@ -44,28 +40,37 @@ main {
     background-color: white;
     width: 300px;
     border-radius: 20px;
-    overflow: hidden;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.image {
+    padding: 15px;
+}
+
+.image img {
+    border-radius: 10px;
+    width: 100%;
 }
 
 .content {
-    margin: 30px 30px;
+    margin: 10px 30px 30px 30px;
 }
 
 h1 {
     color: var(--color3);
     font-size: 1.4em;
-    font-weight: 700;
+    font-weight: var(--fw-bold);
     text-align: center;
     margin-bottom: 30px;
 }
 
 p {
     color: var(--color2);
-    font-weight: 400;
+    font-weight: var(--fw-normal);
     text-align: center;
 }
 
-.attribution {
+.footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -74,7 +79,14 @@ p {
     text-align: center;
 }
 
-.attribution a {
+.footer a {
     font-size: 12px;
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-height: 530px) {
+    .footer {
+        position: relative;
+        margin-top: 10px;
+    }
 }
