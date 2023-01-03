@@ -18,7 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![All screens version](./solution-scrshot/QRCodeComponent-solution.jpg)
+![](./solution-scrshot/QRCodeComponent-solution.jpg)
 
 ### Links
 
@@ -37,11 +37,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-This is one of my first Frontend Mentor challenges. I'm trying to learn more about flexbox and how to use its attributes to properly display the elements on different screens sizes.
+This is one of my first Frontend Mentor challenges. I'm taking my first steps in studying web development, so pretty much everything is new to me.
 
 ### Continued development
 
-Since I'm just starting my learning of HTML, CSS and web development in general, I'm still focusing on learning every aspect of these technologies, especially the fundamentals.
+Since I'm just starting to learn about web development, I'm trying to focus on the basics of HTML and CSS, while also introducing myself to topics like Flebox and Grid Layout, Mobile-first, naming conventions etc.
 
 ### Useful resources
 
